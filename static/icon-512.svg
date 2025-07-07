@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#002868;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#bf0a30;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="#ffffff" rx="64"/>
+  
+  <!-- Texas blue background circle -->
+  <circle cx="256" cy="256" r="224" fill="url(#blueGradient)" stroke="white" stroke-width="16"/>
+  
+  <!-- Heart shape (flood relief compassion) -->
+  <path d="M256 384C256 384 128 288 128 208C128 172.8 156.8 144 192 144C216 144 236.8 156.8 256 176C275.2 156.8 296 144 320 144C355.2 144 384 172.8 384 208C384 288 256 384 256 384Z" 
+        fill="url(#redGradient)" stroke="white" stroke-width="8"/>
+  
+  <!-- Lone star (Texas symbol) -->
+  <path d="M256 96L280 168L352 168L296 216L320 288L256 240L192 288L216 216L160 168L232 168Z" 
+        fill="white" stroke="none"/>
+  
+  <!-- Small highlight for depth -->
+  <ellipse cx="208" cy="192" rx="24" ry="32" fill="rgba(255,255,255,0.3)"/>
+</svg>

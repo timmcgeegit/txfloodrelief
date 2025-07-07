@@ -1,0 +1,213 @@
+{
+  "lastUpdated": "2025-07-06T23:30:00Z",
+  "federalPrograms": [
+    {
+      "id": "fema-individual-assistance",
+      "name": "FEMA Individual Assistance",
+      "agency": "Federal Emergency Management Agency",
+      "status": "approved",
+      "priority": true,
+      "description": "Federal disaster assistance for individuals and families",
+      "applicationMethods": [
+        {
+          "method": "online",
+          "url": "https://www.disasterassistance.gov",
+          "description": "Apply online 24/7"
+        },
+        {
+          "method": "phone",
+          "number": "1-800-621-3362",
+          "description": "Multilingual support available 24/7"
+        },
+        {
+          "method": "mobile-app",
+          "name": "FEMA App",
+          "description": "Download from app store"
+        }
+      ],
+      "coverage": [
+        "Temporary housing assistance",
+        "Home repairs not covered by insurance",
+        "Personal property replacement",
+        "Medical and dental expenses",
+        "Funeral expenses",
+        "Other serious disaster-related needs"
+      ],
+      "requirements": [
+        "Must file insurance claims first",
+        "Property must be in declared disaster area",
+        "Must be a U.S. citizen or qualified alien",
+        "Apply within 60 days of disaster declaration"
+      ],
+      "notes": "FEMA assistance is always free. Anyone asking for fees is a scammer."
+    },
+    {
+      "id": "sba-disaster-loans",
+      "name": "SBA Disaster Loans",
+      "agency": "Small Business Administration",
+      "status": "available",
+      "priority": true,
+      "description": "Low-interest disaster loans for homeowners and businesses",
+      "loanTypes": [
+        {
+          "type": "home-disaster-loan",
+          "name": "Home Disaster Loan",
+          "maxAmount": 500000,
+          "interestRate": 2.75,
+          "description": "For homeowners to repair/replace primary residence"
+        },
+        {
+          "type": "personal-property-loan", 
+          "name": "Personal Property Loan",
+          "maxAmount": 100000,
+          "interestRate": 2.75,
+          "description": "Replace personal belongings not covered by insurance"
+        },
+        {
+          "type": "business-physical-disaster-loan",
+          "name": "Business Physical Disaster Loan",
+          "maxAmount": 2000000,
+          "interestRate": 4.0,
+          "description": "For businesses to repair/replace damaged property"
+        },
+        {
+          "type": "economic-injury-disaster-loan",
+          "name": "Economic Injury Disaster Loan",
+          "maxAmount": 2000000,
+          "interestRate": 4.0,
+          "description": "Working capital for businesses unable to pay ordinary expenses"
+        }
+      ],
+      "applicationMethods": [
+        {
+          "method": "online",
+          "url": "https://www.sba.gov/disaster",
+          "description": "Apply online at SBA.gov"
+        },
+        {
+          "method": "phone",
+          "number": "1-800-659-2955",
+          "description": "Customer service center"
+        }
+      ],
+      "benefits": [
+        "Interest rates as low as 2.75% for homeowners",
+        "Up to 30-year repayment terms",
+        "12-month payment deferment available",
+        "No prepayment penalties",
+        "May refinance existing mortgages"
+      ],
+      "requirements": [
+        "Must apply within 60 days of disaster declaration",
+        "Credit history and ability to repay required",
+        "Must maintain insurance on collateral",
+        "Use loan proceeds only for disaster-related purposes"
+      ]
+    }
+  ],
+  "statePrograms": [
+    {
+      "id": "texas-emergency-assistance",
+      "name": "Texas Emergency Assistance Registry",
+      "agency": "Texas Health and Human Services",
+      "status": "active",
+      "description": "State emergency benefits for eligible families",
+      "coverage": [
+        "Emergency food assistance",
+        "Temporary cash assistance", 
+        "Emergency Medicaid"
+      ],
+      "applicationMethods": [
+        {
+          "method": "online",
+          "url": "https://yourtexasbenefits.hhsc.texas.gov",
+          "description": "Apply online"
+        },
+        {
+          "method": "phone",
+          "number": "2-1-1",
+          "description": "Call 2-1-1 for assistance"
+        }
+      ]
+    }
+  ],
+  "localPrograms": [
+    {
+      "id": "kerr-county-flood-relief-fund",
+      "name": "Kerr County Flood Relief Fund",
+      "organization": "Community Foundation of Texas Hill Country",
+      "status": "active",
+      "priority": false,
+      "description": "Local disaster relief fund managed by community foundation",
+      "taxId": "20-1974588",
+      "charityRating": "4-star Charity Navigator",
+      "address": {
+        "street": "241 Earl Garrett Street",
+        "city": "Kerrville",
+        "state": "TX",
+        "zip": "78028"
+      },
+      "website": "https://cftxhillcountry.org",
+      "fundingType": "grants-to-nonprofits",
+      "notes": "Provides grants to vetted nonprofits and local governments. Does NOT provide direct payments to individuals.",
+      "coverage": [
+        "Supports rescue operations",
+        "Relief operations through vetted organizations",
+        "Recovery operations",
+        "Community rebuilding efforts"
+      ]
+    }
+  ],
+  "legalAid": [
+    {
+      "id": "state-bar-legal-hotline",
+      "name": "State Bar of Texas Legal Hotline",
+      "organization": "State Bar of Texas",
+      "phone": "1-800-504-7030",
+      "languages": ["English", "Spanish", "Vietnamese"],
+      "services": [
+        "Disaster-related legal issues",
+        "Document replacement assistance",
+        "Insurance claim disputes",
+        "Contract reviews",
+        "Landlord/tenant issues"
+      ],
+      "cost": "free",
+      "availability": "Disaster response period"
+    }
+  ],
+  "importantDeadlines": [
+    {
+      "program": "FEMA Individual Assistance",
+      "deadline": "60 days from disaster declaration",
+      "declared": "2025-07-05",
+      "deadlineDate": "2025-09-03"
+    },
+    {
+      "program": "SBA Disaster Loans - Property Damage",
+      "deadline": "60 days from disaster declaration", 
+      "declared": "2025-07-05",
+      "deadlineDate": "2025-09-03"
+    },
+    {
+      "program": "SBA Disaster Loans - Economic Injury",
+      "deadline": "9 months from disaster declaration",
+      "declared": "2025-07-05", 
+      "deadlineDate": "2026-04-05"
+    }
+  ],
+  "scamWarnings": [
+    {
+      "warning": "FEMA assistance is always free",
+      "details": "Anyone asking for payment to apply for FEMA assistance is a scammer"
+    },
+    {
+      "warning": "Verify charity legitimacy",
+      "details": "Check charity ratings at Charity Navigator or GuideStar before donating"
+    },
+    {
+      "warning": "Report fraud immediately",
+      "details": "Contact National Disaster Fraud Hotline at 1-866-720-5721"
+    }
+  ]
+}

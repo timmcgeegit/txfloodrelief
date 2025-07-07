@@ -1,0 +1,198 @@
+{
+  "lastUpdated": "2025-07-06T23:00:00Z",
+  "shelters": [
+    {
+      "id": "first-methodist",
+      "name": "First United Methodist Church",
+      "type": "medical",
+      "status": "open",
+      "priority": true,
+      "capacity": 100,
+      "current": 50,
+      "address": {
+        "street": "321 Thompson Drive",
+        "city": "Kerrville",
+        "state": "TX",
+        "zip": "78028"
+      },
+      "phone": "830-896-2875",
+      "website": "https://kfumc.org/",
+      "coordinates": {
+        "lat": 30.0474,
+        "lng": -99.1403
+      },
+      "services": [
+        "Medical care",
+        "Wheelchair accessible",
+        "Medication storage",
+        "24/7 medical staff on-site"
+      ],
+      "notes": "Specialized medical shelter with trained staff"
+    },
+    {
+      "id": "kerrville-high",
+      "name": "Kerrville High School Gymnasium",
+      "type": "general",
+      "status": "open",
+      "priority": false,
+      "capacity": 200,
+      "current": 85,
+      "address": {
+        "street": "1101 Barnett Street",
+        "city": "Kerrville",
+        "state": "TX",
+        "zip": "78028"
+      },
+      "phone": "830-257-2200",
+      "coordinates": {
+        "lat": 30.0355,
+        "lng": -99.1234
+      },
+      "services": [
+        "General shelter",
+        "Meals provided",
+        "Shower facilities",
+        "Pet area available"
+      ],
+      "notes": "Large capacity shelter with pet accommodation"
+    },
+    {
+      "id": "riverside-nature-center",
+      "name": "Riverside Nature Center",
+      "type": "family",
+      "status": "open",
+      "priority": false,
+      "capacity": 75,
+      "current": 32,
+      "address": {
+        "street": "150 Francisco Lemos Street",
+        "city": "Kerrville",
+        "state": "TX",
+        "zip": "78028"
+      },
+      "phone": "830-257-4837",
+      "website": "https://riversidenaturecenter.org/",
+      "coordinates": {
+        "lat": 30.0521,
+        "lng": -99.1342
+      },
+      "services": [
+        "Family-friendly environment",
+        "Children's play area",
+        "Quiet spaces",
+        "Nursing/baby area"
+      ],
+      "notes": "Ideal for families with young children"
+    },
+    {
+      "id": "hunt-community-center",
+      "name": "Hunt Community Center",
+      "type": "general",
+      "status": "near-capacity",
+      "priority": false,
+      "capacity": 50,
+      "current": 45,
+      "address": {
+        "street": "2232 Hunt Store Road",
+        "city": "Hunt",
+        "state": "TX",
+        "zip": "78024"
+      },
+      "phone": "830-238-4388",
+      "coordinates": {
+        "lat": 30.0712,
+        "lng": -99.3201
+      },
+      "services": [
+        "General shelter",
+        "Local volunteers",
+        "Home-cooked meals"
+      ],
+      "notes": "Small community shelter, almost full"
+    },
+    {
+      "id": "calvary-temple",
+      "name": "Calvary Temple Church",
+      "type": "general",
+      "status": "open",
+      "priority": true,
+      "capacity": 150,
+      "current": 60,
+      "address": {
+        "street": "3000 Loop 534",
+        "city": "Kerrville",
+        "state": "TX",
+        "zip": "78028"
+      },
+      "phone": "830-257-5441",
+      "website": "https://www.ctc.church/",
+      "coordinates": {
+        "lat": 30.0295,
+        "lng": -99.1156
+      },
+      "services": [
+        "Emergency shelter",
+        "Meals provided",
+        "Basic supplies",
+        "Spiritual care available"
+      ],
+      "notes": "Currently accepting displaced residents, providing basic shelter and meals"
+    },
+    {
+      "id": "notre-dame-catholic",
+      "name": "Notre Dame Catholic Church",
+      "type": "general",
+      "status": "open",
+      "priority": true,
+      "capacity": 100,
+      "current": 35,
+      "address": {
+        "street": "909 Main Street",
+        "city": "Kerrville",
+        "state": "TX",
+        "zip": "78028"
+      },
+      "phone": "830-257-3036",
+      "website": "https://notredamechurch.cc/",
+      "coordinates": {
+        "lat": 30.0475,
+        "lng": -99.1403
+      },
+      "services": [
+        "Emergency shelter",
+        "Meals provided", 
+        "Spanish-speaking volunteers",
+        "Catholic services available"
+      ],
+      "notes": "Open for emergency shelter, bilingual support available"
+    },
+    {
+      "id": "schreiner-university",
+      "name": "Schreiner University Event Center",
+      "type": "general",
+      "status": "at-capacity",
+      "priority": false,
+      "capacity": 200,
+      "current": 200,
+      "address": {
+        "street": "2100 Memorial Boulevard",
+        "city": "Kerrville",
+        "state": "TX",
+        "zip": "78028"
+      },
+      "phone": "830-792-7334",
+      "website": "https://schreiner.edu/",
+      "coordinates": {
+        "lat": 30.0612,
+        "lng": -99.1289
+      },
+      "services": [
+        "Meals through Schreiner Diner",
+        "Student volunteers",
+        "Large facility",
+        "Parking available"
+      ],
+      "notes": "Has reached full capacity but continues providing meals through Schreiner Diner"
+    }
+  ]
+}

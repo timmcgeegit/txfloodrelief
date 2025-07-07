@@ -1,0 +1,198 @@
+@import "tailwindcss";
+
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --radius: 0.625rem;
+  
+  /* Core Layout Colors */
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.31 0.048 275.35);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.31 0.048 275.35);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.31 0.048 275.35);
+  
+  /* Brand Colors - Updated to match your logo */
+  --primary: oklch(0.24 0.12 270);           /* #1c3775 - Your dark blue */
+  --primary-foreground: oklch(1 0 0);        /* White text on primary */
+  --secondary: oklch(0.67 0.14 220);         /* #54afe6 - Your light blue */
+  --secondary-foreground: oklch(1 0 0);      /* White text on secondary */
+  
+  /* Emergency & Status Colors */
+  --destructive: oklch(0.51 0.20 20);        /* #c8102e - Your emergency red */
+  --destructive-foreground: oklch(1 0 0);    /* White text on red */
+  --success: oklch(0.55 0.15 145);           /* Green for available/good status */
+  --success-foreground: oklch(1 0 0);        /* White text on green */
+  --warning: oklch(0.65 0.18 55);            /* Orange for caution/updated */
+  --warning-foreground: oklch(1 0 0);        /* White text on orange */
+  
+  /* Keep your existing UI element colors */
+  --muted: oklch(0.976 0.006 247.858);
+  --muted-foreground: oklch(0.554 0.046 257.417);
+  --accent: oklch(0.976 0.006 247.858);
+  --accent-foreground: oklch(0.24 0.12 270);  /* Primary blue on accent */
+  --border: oklch(0.929 0.013 255.508);
+  --input: oklch(0.929 0.013 255.508);
+  --ring: oklch(0.24 0.12 270);               /* Primary blue for focus rings */
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.984 0.003 247.858);
+  --sidebar-foreground: oklch(0.129 0.042 264.695);
+  --sidebar-primary: oklch(0.208 0.042 265.755);
+  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-accent: oklch(0.968 0.007 247.896);
+  --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
+  --sidebar-border: oklch(0.929 0.013 255.508);
+  --sidebar-ring: oklch(0.704 0.04 256.788);
+}
+
+.dark {
+  --background: oklch(0.129 0.042 264.695);
+  --foreground: oklch(0.984 0.003 247.858);
+  --card: oklch(0.208 0.042 265.755);
+  --card-foreground: oklch(0.984 0.003 247.858);
+  --popover: oklch(0.208 0.042 265.755);
+  --popover-foreground: oklch(0.984 0.003 247.858);
+  --primary: oklch(0.67 0.14 220);            /* Light blue becomes primary in dark */
+  --primary-foreground: oklch(0.129 0.042 264.695);
+  --secondary: oklch(0.35 0.10 270);          /* Darker blue for secondary */
+  --secondary-foreground: oklch(0.984 0.003 247.858);
+  --destructive: oklch(0.65 0.22 25);         /* Brighter red for dark mode */
+  --destructive-foreground: oklch(0.984 0.003 247.858);
+  --success: oklch(0.65 0.16 150);            /* Brighter green for dark mode */
+  --success-foreground: oklch(0.129 0.042 264.695);
+  --warning: oklch(0.75 0.20 60);             /* Brighter orange for dark mode */
+  --warning-foreground: oklch(0.129 0.042 264.695);
+  --muted: oklch(0.279 0.041 260.031);
+  --muted-foreground: oklch(0.704 0.04 256.788);
+  --accent: oklch(0.279 0.041 260.031);
+  --accent-foreground: oklch(0.984 0.003 247.858);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.551 0.027 264.364);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.208 0.042 265.755);
+  --sidebar-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-accent: oklch(0.279 0.041 260.031);
+  --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.551 0.027 264.364);
+}
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@theme {
+  --color-primary-blue: #1c3775;
+  --color-primary-light: #54afe6;
+  --color-emergency: #c8102e;
+  --color-success: #16a34a;
+  --color-warning: #ea580c;
+  --color-gray-50: #f8fafc;
+  --color-gray-100: #f1f5f9;
+  --color-gray-200: #e2e8f0;
+  --color-gray-500: #64748b;
+  --color-gray-700: #334155;
+  --color-gray-900: #0f172a;
+  --color-white: #ffffff;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-gray-50 text-foreground;
+  }
+  
+  /* Link styling throughout site */
+  a {
+    @apply text-primary hover:text-secondary ;
+  }
+  
+  /* For navigation links that shouldn't be underlined */
+  .nav-link {
+    @apply text-muted-foreground hover:text-primary no-underline;
+  }
+}
+
+@layer components {
+  /* Emergency-specific utilities */
+  .emergency-banner {
+    background-color: hsl(var(--destructive));
+    color: hsl(var(--destructive-foreground));
+  }
+
+  /* Status badge utilities */
+  .badge-live {
+    background-color: hsl(var(--success));
+    color: hsl(var(--success-foreground));
+  }
+
+  .badge-updated {
+    background-color: hsl(var(--warning));
+    color: hsl(var(--warning-foreground));
+  }
+
+  .badge-urgent {
+    background-color: hsl(var(--destructive));
+    color: hsl(var(--destructive-foreground));
+  }
+
+  .badge-info {
+    background-color: hsl(var(--secondary));
+    color: hsl(var(--secondary-foreground));
+  }
+}

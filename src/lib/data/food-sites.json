@@ -1,0 +1,208 @@
+{
+  "lastUpdated": "2025-07-06T23:15:00Z",
+  "foodSites": [
+    {
+      "id": "first-baptist-kitchen",
+      "name": "First Baptist Church Community Kitchen",
+      "type": "hot-meals",
+      "status": "serving-now",
+      "priority": true,
+      "address": {
+        "street": "600 Water Street",
+        "city": "Kerrville",
+        "state": "TX",
+        "zip": "78028"
+      },
+      "phone": "830-257-3505",
+      "schedule": {
+        "breakfast": "7:00 AM - 9:00 AM",
+        "lunch": "12:00 PM - 2:00 PM",
+        "dinner": "6:00 PM - 8:00 PM"
+      },
+      "services": [
+        "Hot meals",
+        "Take-away containers",
+        "Special dietary needs",
+        "No questions asked"
+      ],
+      "notes": "Serving 3 meals daily. Family-style service available."
+    },
+    {
+      "id": "salvation-army-mobile",
+      "name": "Salvation Army Mobile Kitchen",
+      "type": "mobile-unit",
+      "status": "active",
+      "priority": true,
+      "currentLocation": "Schreiner University Parking Lot",
+      "address": {
+        "street": "2100 Memorial Boulevard",
+        "city": "Kerrville",
+        "state": "TX",
+        "zip": "78028"
+      },
+      "phone": "830-257-7410",
+      "website": "https://www.salvationarmyusa.org/",
+      "localWebsite": "https://kerrvillekroc.org/KrocKerrville/social-services/",
+      "schedule": {
+        "lunch": "11:30 AM - 1:30 PM",
+        "dinner": "5:30 PM - 7:30 PM"
+      },
+      "services": [
+        "Mobile hot meals",
+        "Bottled water",
+        "Snacks",
+        "Moves to serve different areas"
+      ],
+      "notes": "Mobile unit - location may change. Call to confirm current location."
+    },
+    {
+      "id": "kerrville-municipal",
+      "name": "Kerrville Municipal Building Water Distribution",
+      "type": "water-only",
+      "status": "active",
+      "priority": false,
+      "address": {
+        "street": "701 Main Street",
+        "city": "Kerrville",
+        "state": "TX",
+        "zip": "78028"
+      },
+      "phone": "830-257-8000",
+      "website": "https://www.kerrvilletx.gov/1691/Water-Distribution",
+      "emergencyPhone": "830-257-8181",
+      "schedule": {
+        "daily": "8:00 AM - 6:00 PM"
+      },
+      "services": [
+        "Bottled water",
+        "Ice (when available)",
+        "Drive-through pickup",
+        "No limit per family"
+      ],
+      "notes": "Drive-through service available. Bring containers for ice."
+    },
+    {
+      "id": "hunt-volunteer-fire",
+      "name": "Hunt Volunteer Fire Department",
+      "type": "community-kitchen",
+      "status": "active",
+      "priority": false,
+      "address": {
+        "street": "2220 Hunt Store Road",
+        "city": "Hunt",
+        "state": "TX",
+        "zip": "78024"
+      },
+      "phone": "830-238-4200",
+      "website": "https://huntvfd.org/",
+      "facebook": "https://www.facebook.com/HuntVFDTexas78024/",
+      "schedule": {
+        "lunch": "12:00 PM - 2:00 PM",
+        "dinner": "6:00 PM - 8:00 PM"
+      },
+      "services": [
+        "Home-cooked meals",
+        "Local volunteers",
+        "Family atmosphere",
+        "Fresh local ingredients"
+      ],
+      "notes": "Small community kitchen run by local volunteers."
+    },
+    {
+      "id": "ingram-food-pantry",
+      "name": "Ingram Food Pantry Emergency Distribution",
+      "type": "food-pantry",
+      "status": "active",
+      "priority": false,
+      "address": {
+        "street": "135 Broadway Street",
+        "city": "Ingram",
+        "state": "TX",
+        "zip": "78025"
+      },
+      "phone": "830-367-4232",
+      "schedule": {
+        "daily": "10:00 AM - 4:00 PM"
+      },
+      "services": [
+        "Grocery items",
+        "Canned goods",
+        "Baby formula",
+        "Personal hygiene items"
+      ],
+      "notes": "Take what you need for your family. Emergency distribution - no paperwork required."
+    },
+    {
+      "id": "world-central-kitchen",
+      "name": "World Central Kitchen",
+      "type": "chef-prepared-meals",
+      "status": "active",
+      "priority": true,
+      "isNational": true,
+      "currentLocation": "Various locations - check social media",
+      "socialMedia": {
+        "twitter": "@WCKitchen",
+        "facebook": "WorldCentralKitchen",
+        "instagram": "@wckitchen"
+      },
+      "schedule": {
+        "daily": "Check social media for current distribution sites and times"
+      },
+      "services": [
+        "Chef-prepared hot meals",
+        "Daily meal distribution",
+        "Professional kitchen operations",
+        "Multiple distribution sites"
+      ],
+      "notes": "Providing chef-prepared hot meals daily at various locations. Check their social media for current distribution sites and times."
+    },
+    {
+      "id": "mercy-chefs",
+      "name": "Mercy Chefs",
+      "type": "chef-prepared-meals",
+      "status": "active",
+      "priority": true,
+      "isNational": true,
+      "currentLocation": "Various locations - check social media",
+      "website": "https://mercychefs.com",
+      "socialMedia": {
+        "facebook": "MercyChefs",
+        "instagram": "@mercychefs"
+      },
+      "schedule": {
+        "daily": "Check social media for current distribution sites and times"
+      },
+      "services": [
+        "Chef-prepared hot meals",
+        "Professional disaster response",
+        "Mobile kitchen units",
+        "High-quality meals"
+      ],
+      "notes": "Professional disaster response organization providing chef-prepared hot meals daily. Check their social media for current distribution sites."
+    },
+    {
+      "id": "rails-cafe",
+      "name": "Rails - A Cafe on the River",
+      "type": "community-meals",
+      "status": "active",
+      "priority": true,
+      "address": {
+        "street": "623 Water Street",
+        "city": "Kerrville",
+        "state": "TX",
+        "zip": "78028"
+      },
+      "phone": "830-257-3877",
+      "schedule": {
+        "daily": "Call for current meal times"
+      },
+      "services": [
+        "Meals for community members",
+        "Meals for first responders",
+        "Accepting ingredient donations",
+        "Local restaurant supporting relief"
+      ],
+      "notes": "Preparing hundreds of meals for community members and first responders. Accepting ingredient donations at their location."
+    }
+  ]
+}

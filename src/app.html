@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Favicon -->
+		<link rel="icon" href="%sveltekit.assets%/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="%sveltekit.assets%/favicon-32x32.png" sizes="32x32" type="image/png" />
+		<link rel="icon" href="%sveltekit.assets%/favicon-16x16.png" sizes="16x16" type="image/png" />
+		<link rel="shortcut icon" href="%sveltekit.assets%/favicon.ico" type="image/x-icon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<!-- PWA Manifest -->
+		<link rel="manifest" href="%sveltekit.assets%/manifest.json" />
+		
+		<!-- PWA Meta Tags -->
+		<meta name="theme-color" content="#3b82f6" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta name="apple-mobile-web-app-title" content="Flood Relief" />
+		
+		<!-- Apple Touch Icons -->
+		<link rel="apple-touch-icon" href="%sveltekit.assets%/apple-touch-icon.png" />
+		<link rel="apple-touch-icon" sizes="192x192" href="%sveltekit.assets%/icon-192.png" />
+		<link rel="apple-touch-icon" sizes="512x512" href="%sveltekit.assets%/icon-512.png" />
+		
+		<!-- Microsoft Tile -->
+		<meta name="msapplication-TileColor" content="#3b82f6" />
+		<meta name="msapplication-TileImage" content="%sveltekit.assets%/icon-192.png" />
+		
+		<!-- Plausible Analytics -->
+		<script defer data-domain="texasfloodrelief.org" src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"></script>
+		<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+		
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
