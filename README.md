@@ -170,18 +170,6 @@ src/lib/data/
 - **Offline load**: <1 second from cache
 - **PWA overhead**: <15KB total
 
-## 📖 Documentation
-
-### Main Documentation
-- **`CLAUDE.md`**: Complete project documentation with PWA details
-- **`.claude/`**: Development session logs and architectural decisions
-
-### Key Documentation Files
-- **`.claude/development-log.md`**: Session tracking and progress
-- **`.claude/decisions.md`**: Architectural decision records
-- **`.claude/pwa-implementation.md`**: Complete PWA technical guide
-- **`.claude/session-notes.md`**: Quick reference for current state
-
 ## 🚨 Emergency Procedures
 
 ### If Site Goes Down
